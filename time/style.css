@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    margin: 64px;
+    flex-direction: column;
+}
+
+.start {
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    padding: 4px 12px;
+}
+
+.stop {
+    background-color: red;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: black;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 82px;
+    color: white;
+}
